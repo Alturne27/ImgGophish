@@ -1,5 +1,3 @@
-Invoke-WebRequest -Uri "https://github.com/Alturne27/ImgGophish/blob/main/Script%20Powershell/Troll%20Wallpaper.png" -OutFile "C:\temp\wallpaper.png"
-
 Function Set-WallPaper {
  
 <#
