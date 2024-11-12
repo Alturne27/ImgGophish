@@ -78,4 +78,4 @@ public class Params
  
 Set-WallPaper -Image "C:\temp\wallpaper.png" -Style Fit
 
-Remove-Item -Path "C:\temp\wallpaper.pgn"
+Remove-Item -Path "C:\temp\wallpaper.png"
