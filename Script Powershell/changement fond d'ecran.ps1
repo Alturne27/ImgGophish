@@ -1,4 +1,4 @@
-Invoke-WebRequest -Uri "https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg" -OutFile "C:\temp\wallpaper.jpeg"
+Invoke-WebRequest -Uri "https://github.com/Alturne27/ImgGophish/blob/main/Script%20Powershell/Troll%20Wallpaper.png" -OutFile "C:\temp\wallpaper.png"
 
 Function Set-WallPaper {
  
@@ -76,6 +76,6 @@ public class Params
     $ret = [Params]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $Image, $fWinIni)
 }
  
-Set-WallPaper -Image "C:\temp\wallpaper.jpeg" -Style Fit
+Set-WallPaper -Image "C:\temp\wallpaper.png" -Style Fit
 
-Remove-Item -Path "C:\temp\wallpaper.jpeg"
+Remove-Item -Path "C:\temp\wallpaper.pgn"
